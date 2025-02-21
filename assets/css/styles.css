@@ -276,6 +276,24 @@ img {
   margin-left: 150px;
   margin-right: 150px;
 }
+/* Styles de base pour .about__text */
+.about__text {
+  font-family: serif;
+  font-size: 22px;
+  margin-bottom: var(--mb-4);
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Media query pour les écrans mobiles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .about__text {
+    margin-left: 20px; /* Réduire la marge gauche */
+    margin-right: 20px; /* Réduire la marge droite */
+    font-size: 18px; /* Réduire la taille de la police pour les petits écrans */
+  }
+}
 
 .about__img {
   justify-self: center;
